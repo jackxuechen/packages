@@ -1,3 +1,10 @@
+## NEXT
+* Adds support for configuring file URL access permissions. See
+  `AndroidWebViewController.setAllowFileAccessFromFileURLs` and
+  `AndroidWebViewController.setAllowUniversalAccessFromFileURLs`.
+* 
+* Updates minimum supported SDK version to Flutter 3.41/Dart 3.11.
+
 ## 4.14.1
 
 * Updates pigeon dev_dependency to ^27.3.2 for analyzer 14 compatibility.
