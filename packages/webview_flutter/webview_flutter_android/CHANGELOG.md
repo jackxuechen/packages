@@ -1,3 +1,8 @@
+## 4.12.0-lj
+* Adds support for configuring file URL access permissions. See
+  `AndroidWebViewController.setAllowFileAccessFromFileURLs` and
+  `AndroidWebViewController.setAllowUniversalAccessFromFileURLs`.
+*
 ## 4.12.0
 
 * Adds support for retrieving cookies with `PlatformWebViewCookieManager.getCookies`.

@@ -450,6 +450,24 @@ class MockAndroidWebViewController extends _i1.Mock
           as _i5.Future<void>);
 
   @override
+  _i5.Future<void> setAllowFileAccessFromFileURLs(bool? enabled) =>
+      (super.noSuchMethod(
+            Invocation.method(#setAllowFileAccessFromFileURLs, [enabled]),
+            returnValue: _i5.Future<void>.value(),
+            returnValueForMissingStub: _i5.Future<void>.value(),
+          )
+          as _i5.Future<void>);
+
+  @override
+  _i5.Future<void> setAllowUniversalAccessFromFileURLs(bool? enabled) =>
+      (super.noSuchMethod(
+            Invocation.method(#setAllowUniversalAccessFromFileURLs, [enabled]),
+            returnValue: _i5.Future<void>.value(),
+            returnValueForMissingStub: _i5.Future<void>.value(),
+          )
+          as _i5.Future<void>);
+
+  @override
   _i5.Future<void> setGeolocationEnabled(bool? enabled) =>
       (super.noSuchMethod(
             Invocation.method(#setGeolocationEnabled, [enabled]),
